@@ -3,5 +3,7 @@ spring:
     name: tuya-study
 
 connector:
-  ak: jjuhqx3xak971y9k8zz7
-  sk: c4efe85b21d64228a976ee506aaa0de5
+#  ak: jjuhqx3xak971y9k8zz7
+#  sk: c4efe85b21d64228a976ee506aaa0de5
+  ak: 7gyexkn8apaeahzym1qm
+  sk: dd59caae7c0144cfae650b726ec21ffb

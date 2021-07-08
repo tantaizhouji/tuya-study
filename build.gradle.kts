@@ -18,10 +18,11 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("com.tuya:tuya-spring-boot-starter:1.0.6")
+    implementation("com.tuya:tuya-spring-boot-starter:1.0.8")
     implementation("com.sun.xml.bind:jaxb-core:3.0.1")
     implementation("com.sun.xml.bind:jaxb-impl:3.0.1")
     implementation("javax.xml.bind:jaxb-api:2.3.1")
+    implementation("io.github.microutils:kotlin-logging-jvm:2.0.8")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
