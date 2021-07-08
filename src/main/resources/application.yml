@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: tuya-study
+
+connector:
+  ak: jjuhqx3xak971y9k8zz7
+  sk: c4efe85b21d64228a976ee506aaa0de5
