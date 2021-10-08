@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    id("org.springframework.boot") version "2.5.2"
+    id("org.springframework.boot") version "2.5.5"
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
     kotlin("jvm") version "1.5.20"
     kotlin("plugin.spring") version "1.5.20"
@@ -19,6 +19,8 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.tuya:tuya-spring-boot-starter:1.0.8")
+    implementation("org.bouncycastle:bcprov-jdk16:1.46")
+    implementation("com.squareup.okhttp3:okhttp:4.9.1")
     implementation("com.sun.xml.bind:jaxb-core:3.0.1")
     implementation("com.sun.xml.bind:jaxb-impl:3.0.1")
     implementation("javax.xml.bind:jaxb-api:2.3.1")
@@ -26,6 +28,7 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
